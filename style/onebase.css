@@ -1,0 +1,225 @@
+
+
+    /*css样式初始化*/
+    body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0;}
+    body{font:12px "宋体","Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%;}
+    a{color:#333;text-decoration:none;}
+    a:hover{color:#E53B3B;text-decoration:none;}
+    em{font-style:normal;}
+    ul,li{list-style:none;}
+    img{border:0;vertical-align:middle;}
+    table{border-collapse:collapse;border-spacing:0;}
+    p{word-wrap:break-word;}
+
+
+    /*版心*/
+    .areaheart{width:1410px;margin:0 auto;}
+
+
+    /*网页腹部，风尚堂摄影客片欣赏*/
+    .one-video-big{
+        width: 1410px;
+        height: 908px;
+        margin-top: 20px;
+        margin: 0 auto;
+    }
+    .one-p-title{
+        width: 1410px;
+        height: 48px;
+    }
+    .one-video{
+        width: 1100px;
+        height: 850px;
+        margin:10px auto;
+    }
+    .one-left,.one-center,.one-right{
+        float: left;
+        margin-right: 14px;
+    }
+    .one-right{
+        margin-right: 0px;
+    }
+    .one-left div{
+        overflow: hidden;
+        position: relative;
+    }
+    .one-center div{
+        overflow: hidden;
+        position: relative;
+    }
+    .one-right div{
+        overflow: hidden;
+        position: relative;
+    }
+    .one-left div,.one-center div,.one-right div{
+        margin-bottom: 13px;
+    }
+    .one-left div span,.one-center div span,.one-right div span{
+        width:357px;
+        height:60px;
+        background: rgba(0,0,0,0.7);
+        position: absolute;
+        bottom: -60px;
+        left: 0;
+        font:bold 18px/60px "微软雅黑";
+        color:#fff;
+        text-align: center;
+
+    }
+    .one-left div i,.one-center div i,.one-right div i{
+        width:357px;
+        height:60px;
+        background: rgba(0,0,0,0.7);
+        position: absolute;
+        top: -60px;
+        left: 0;
+        font:bold 18px/60px "微软雅黑";
+        color:#fff;
+        text-align: center;
+    }
+    
+    
+    /*网页臀部,最美的季节*/
+    .onemy{
+        width: 1410px;
+        height: 420px;
+        margin: 20px auto;
+    }
+    .one-p-title p,.onemei p{
+        height:48px;
+        text-align: center;
+        /*line-height: 40px;*/
+        font: 24px/48px "黑体";
+        color: #CC0001;
+    }
+    .onepic{
+        width:1110px;
+        height:347px;
+        margin: 10px auto;
+        
+    }
+    .onemy ul li{
+        width: 267px;
+        height: 337px;
+        float: left;
+        margin-right: 10px;
+        background-color: black;
+        
+
+    }
+    .onemy ul li .onepic04{
+        margin-right: 0px;
+    }
+    /*提供的服务*/
+    .service-big{
+        width:1100px;
+        height:400px;
+        background:url(../images/service-bg.jpg) no-repeat;
+        margin:20px auto;
+    }
+    .service-big .service-left{
+        width:420px;
+        height:400px;
+        float:left;
+    }
+    .service-big .service-left p{
+        font-size:12px;
+        color:#666;
+        padding-top:8px;
+        padding-left:5px;
+    }
+    .service-big .service-left .service-title,.service-big .service-right .service-title{
+        color:#CC0001;
+        font:normal 22px "黑体";
+        padding-top:20px;
+
+    }
+    .service-big .service-right .service-title{padding-left:25px;}
+    .service-big .service-right{
+        width:420px;
+        height:400px;
+        float:right;
+    }
+    .service-big .service-right p{
+        padding:0 10px;
+        height:36px;
+        line-height:36px;
+        font:14px "宋体";
+        color:#666;
+        margin:10px 0 20px 30px;
+    }
+    .service-big .service-right .service-right-public{
+        padding-left:80px;
+        height:36px;
+        line-height:36px;
+        font:18px "微软雅黑";
+        color:#CC0001;
+        margin-bottom:10px;
+        background:url(../images/number01.png) no-repeat left;
+    }
+    .service-big .service-right .service01{
+        margin-top:20px;
+    }
+    .service-big .service-right .service02{
+        background:url(../images/number02.png) no-repeat left;
+    }
+    .service-big .service-right .service03{
+        background:url(../images/number03.png) no-repeat left;
+    }
+    /*底部*/
+    .end-big{
+        width:100%;
+        background:#E53B3B;
+    }
+    .end-in .end-link{
+        height:120px;
+        width:1410px;
+    }
+    .end-in .end-link p{
+        font:normal 24px "微软雅黑";
+        color:#620A09;
+        padding:20px 0 10px 30px;
+    }
+    .end-in .end-link .link
+    {
+        padding:10px 30px;
+    }
+    .end-in .end-link .link a{
+        display:block;
+        float:left;
+        padding:4px 8px;
+        font: 12px "宋体";
+        color:#fff;
+    }
+    .end-in .end-nav{
+        background:#E53B3B;
+        height:110px;
+        width:1410px;
+    }
+    .end-in .end-nav div{
+
+        height:110px;
+        width:120px;
+        float:left;
+    }
+    .end-in .end-nav div ul{padding-top:20px;}
+    .end-in .end-nav div ul li{font:12px "宋体";
+        line-height:24px;}
+    .end-in .end-nav div ul li a{color:#fff;}
+    .end-big .end-nav .nav0{background:url(../images/end-logo.jpg) no-repeat 20px 20px;
+        width:320px;cursor:pointer;
+    }
+    .end-big .end-nav .nav00{background:url(../images/map.jpg) no-repeat 20px 20px ;width:350px;cursor:pointer;}
+    .end-big .beian{ width:100%;
+        margin-top:10px;
+        height:80px;
+        background:#CE2E2E;
+    }
+    .end-big .beian div{
+        height:80px;
+        float:left;}
+    .end-big .beian .one{ background:url(../images/400tele.jpg) center no-repeat; margin:0 20px;width:280px; }
+    .end-big .beian .two{ background:url(../images/add.jpg) center no-repeat;margin-right:20px;width:280px;}
+    .end-big .beian .three{background:url(../images/online.jpg) center no-repeat;margin-right:20px;width:210px;}
+    .end-big .beian .four{ background:url(../images/qq.jpg) center no-repeat;margin-right:20px;width:210px; }
+    .end-big .beian .five p{font:12px "宋体"; color:#fff; line-height:24px; padding-top:10px;margin-left: 250px;}

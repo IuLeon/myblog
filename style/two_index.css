@@ -1,0 +1,185 @@
+.banner{
+	width: 1410px;
+	height: 700px;
+	/*overflow: hidden;*/
+	position: relative;
+}
+.current{
+	border: 1px solid black;
+}
+.banner>ul{
+	width: 1410px;
+	position: absolute;
+}
+.banner>ul>li{
+	float: left;
+	position: absolute;
+}
+.nav>ul{
+	height: 60px;
+	background-color:rgba(0,0,0,0.5);
+	position:absolute;
+	z-index:2;
+	top:30px;
+	padding-left: 400px;
+	width: 1010px;
+}
+.nav>ul>li{
+	height: 60px;
+	font:normal 16px/60px "微软雅黑";
+	float: left;
+}
+.nav>ul>li>a{
+	color: white;
+	padding:0 30px;
+}
+.nav ul li:hover{
+	background-color: lightskyblue;
+}
+.nav ul li ul a{
+	color: white;
+	padding: 0 30px;
+	background-color:rgba(0,0,0,0.5);
+	height: 60px;
+	display: inline-block;
+}
+.nav_hide{
+	display: none;
+}
+.nav ul li ul a:hover{
+	background-color: lightskyblue;
+}
+.logo{
+	position: absolute;
+	z-index: 3;
+	top: 30px;
+	left: 232px;
+}
+
+.left{
+	position: absolute;
+	top: 50%;
+	right: 0%;
+	z-index: 2;
+	margin-top: -120px;
+}
+.left li{
+	width: 200px;
+	height: 100px;
+	margin-top: 10px;
+}
+.left li img{
+	width: 200px;
+	height: 100px;
+}
+.tel{
+	position: absolute;
+	z-index: 2;
+	height: 35px;
+	width: 1410px;
+	background-color:rgba(255,0,0,0.6);
+	bottom: 65px;
+}
+.tel p{
+	color: white;
+	font:normal 18px/30px "微软雅黑";
+	text-align: center;
+}
+.bottom{
+	width: 1410px;
+	height: 65px;
+	background-color: rgba(0,0,0,0.7);
+	z-index: 2;
+	position: absolute;
+	bottom: 0px;
+}
+.QQzixun{
+	background: url(../images/contact-qq.png) no-repeat left bottom;;
+	float: left;
+	width: 320px;
+	height: 65px;
+	margin-left: 25px;
+	border-right: 1px white dashed;
+	cursor: pointer;
+}
+.QQzixun_top{
+	font: lighter 20px "微软雅黑";
+	color: white;
+	padding-left: 150px;
+	padding-top: 8px;
+}
+.QQzixun_bottom{
+	font: lighter 14px "宋体";
+	color: white;
+	padding-left: 150px;
+	padding-top: 5px;
+}
+/*QQ质询结束*/
+/*维信公众号开始*/
+.weixin{
+	background: url(../images/contact-weixin.png) no-repeat left bottom;;
+	float: left;
+	width: 320px;
+	height: 65px;
+	margin-left: 25px;
+	border-right: 1px white dashed;
+	cursor: pointer;
+}
+.weixin_top{
+	font: lighter 20px "微软雅黑";
+	color: white;
+	padding-left: 150px;
+	padding-top: 8px;
+}
+.weixin_bottom{
+	font: lighter 12px "宋体";
+	color: white;
+	padding-left: 150px;
+	padding-top: 5px;
+}
+/*微信公众号结束*/
+/*微博开始*/
+.weibo{
+	background: url(../images/contact-weibo.png) no-repeat left bottom;;
+	float: left;
+	width: 320px;
+	height: 65px;
+	margin-left: 25px;
+	border-right: 1px white dashed;
+	cursor: pointer;
+}
+.weibo_top{
+	font: lighter 20px "微软雅黑";
+	color: white;
+	padding-left: 150px;
+	padding-top: 8px;
+}
+.weibo_bottom{
+	font: lighter 12px "宋体";
+	color: white;
+	padding-left: 150px;
+	padding-top: 5px;
+}
+/*微博结束*/
+/*感动客片开始*/
+.miove{
+	background: url(../images/show-case.png) no-repeat left bottom;;
+	float: left;
+	width: 320px;
+	height: 65px;
+	margin-left: 25px;
+	cursor: pointer;
+}
+.miove_top{
+	font: lighter 20px "微软雅黑";
+	color: white;
+	padding-left: 150px;
+	padding-top: 8px;
+}
+.miove_bottom{
+	font: lighter 12px "宋体";
+	color: white;
+	padding-left: 160px;
+	padding-top: 5px;
+}
+/*感动客片结束*/

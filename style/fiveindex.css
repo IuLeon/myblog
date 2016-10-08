@@ -1,0 +1,315 @@
+/*css样式初始化*/
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0;}
+body{font:12px "宋体","Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%;}
+a{color:#333;text-decoration:none;}
+a:hover{color:#E53B3B;text-decoration:none;}
+em{font-style:normal;}
+ul,li{list-style:none;}
+img{border:0;vertical-align:middle;}
+table{border-collapse:collapse;border-spacing:0;}
+p{word-wrap:break-word;}
+
+/*版心*/
+.areaheart{width:1410px;margin:0 auto;}
+
+body{
+    background:#D9FFFF;
+}
+/*轮播图下边主体部分开始*/
+div .content-body{
+    height: 780px;
+    background: red;
+}
+/*主体标题*/
+div .five-title p{
+    font-family: "黑体";
+    font-size: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color:#CC0001;
+}
+/*主体标题结束*/
+
+/*存储照片的层*/
+div .five-photo-show{
+    width: 1100px;
+    height: 730px;
+}
+/*左边两个照片层开始*/
+/*左侧三个照片第一个层样式开始*/
+.five-photo-show-left-top{
+    width:264px;
+    height:352px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 13px;
+}
+.five-photo-show-left-up1{
+    width:264px;
+    height:352px;
+    position: absolute;
+    left:264px;
+    top:0px;
+    background:url(../images/n_08.png);
+    font:30px/100px "微软雅黑";
+    color:#FFF;
+    text-align: center;
+}
+
+/*左侧两个照片第二个层样式开始*/
+.five-photo-show-left{
+    float: left;
+}
+.five-photo-show-left-buttom{
+    width:264px;
+    height:352px;
+    overflow: hidden;
+    position: relative;
+}
+.five-photo-show-left-up2{
+    width:264px;
+    height:352px;
+    position: absolute;
+    left:264px;
+    top:0px;
+    background:url(../images/n_08.png);
+    font:30px/200px "微软雅黑";
+    color:#FFF;
+    text-align: center;
+}
+/*左侧照片层结束*/
+/*左边两个照片层结束*/
+
+/*左侧三个照片第二个层样式开始*/
+.five-photo-show-center{
+    width:545px;
+    height:730px;
+    margin:0 0 0 14px ;
+    float:left;
+    position: relative;
+    overflow: hidden;
+}
+.five-photo-show-center-up3{
+    width:545px;
+    height:730px;
+    position: absolute;
+    left:0px;
+    top:730px;
+    background:url(../images/n_02.png);
+    font:30px/800px "微软雅黑";
+    color:#FFF;
+    text-align: center;
+}
+/*左侧三个照片第二个层样式结束*/
+
+/*左侧三个照片第三个层样式开始*/
+.five-photo-show-right{
+    float: right;
+}
+/*右侧第一张层开始*/
+.five-photo-show-right-top{
+    width:264px;
+    height:352px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 13px;
+}
+.five-photo-show-right-up4{
+    width:264px;
+    height:352px;
+    position: absolute;
+    left:-264px;
+    top:0px;
+    background:url(../images/n_08.png);
+    font:30px/300px "微软雅黑";
+    color:#FFF;
+    text-align: center;
+}
+/*右侧第一张层结束*/
+/*右侧第二张层开始*/
+
+.five-photo-show-right-buttom{
+    width:264px;
+    height:352px;
+    overflow: hidden;
+    position: relative;
+}
+.five-photo-show-right-up5{
+    width:264px;
+    height:352px;
+    position: absolute;
+    left:-264px;
+    top:0px;
+    background:url(../images/n_08.png);
+    font:30px/600px "微软雅黑";
+    color:#FFF;
+    text-align: center;
+}
+/*右侧第二张层结束*/
+.five-photo-show{
+    margin-top: 5px;
+}
+.five-beautiful-imgs{
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+    position: relative;
+}
+.five-beautiful-imgs img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    /*width: 100%;*/
+}
+/*开场动画开始*/
+.fivebigbodyone{
+    z-index: 33;
+    width: 100%;
+}
+.fivebigbodytwo{
+    z-index: 32;
+    width: 100%;
+}
+.fivebigbodythree{
+    z-index: 31;
+    width: 100%;
+}
+.fivebigbodyfour{
+    z-index: 30;
+    width: 100%;
+}
+.fivebigbodyfive{
+    z-index: 29;
+    width: 100%;
+}
+.fivebigbodysix{
+    z-index: 28;
+    width: 100%;
+}
+.fivebigbodyseven{
+    z-index: 27;
+    width: 100%;
+}
+.fivebigbodyeight{
+    z-index: 26;
+    width: 100%;
+}
+.five-beautiful-imgs .fivebigbodynine{
+    z-index: 25;
+    bottom: -1080px;
+    width: 100%;
+}
+.five-beautiful-imgs .fivebigbodyten{
+    z-index: 24;
+    top: -1080px;
+    width: 100%;
+}
+.five-beautiful-imgs .fivebigbodyeleven{
+    z-index: 23;
+    left:-1920px;
+    width: 100%;
+}
+.five-beautiful-imgs .fivebigbodytwelve{
+    z-index: 22;
+    right:-1920px;
+    width: 100%;
+}
+/*五图联奏*/
+.five-beautiful-imgs .fivebigbodythirteen{
+    z-index: 21;
+    right: -1920px;
+
+}
+.five-beautiful-imgs .fivebigbodyfourteen{
+    z-index: 20;
+    left: 524px;
+    top: -1080px;
+}
+.five-beautiful-imgs .fivebigbodyfifteen{
+    z-index: 19;
+    left: 823px;
+    bottom: -1080px;
+}
+.five-beautiful-imgs .fivebigbodysixteen{
+    z-index: 18;
+    left: -268px;
+
+}
+.five-beautiful-imgs .fivebigbodyseventeen{
+    z-index: 17;
+    right: -522px;
+}
+/*五图联播结束*/
+
+.five-beautiful-imgs .fivebigbodyeighteen{
+    z-index: 16;
+    width: 0;
+    height: 0;
+
+}
+.five-beautiful-imgs .fivebigbodynineteen{
+    z-index: 15;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+}
+.five-beautiful-imgs .fivebigbodytwenty{
+    z-index: 14;
+    left: 960px;
+    top: 540px;
+    width: 0;
+    height: 0;
+}
+.five-beautiful-imgs .fivebigbodytwentyone{
+    z-index: 13;
+    opacity: 0;
+
+}
+.fivebigbodytwentytwo{
+    z-index: 12;
+    left: 960px;
+    top: 540px;
+    width: 0;
+    height: 0;
+}
+.fivebigbodytwentythree{
+    z-index: 11;
+}
+.fivebigbodytwentyfour{
+    z-index: 10;
+}
+/*左侧三个照片第三个层样式结束*/
+.wrap{
+    width:1410px;
+    margin:0px auto;
+}
+.slide {
+    height:700px;
+    position: relative;
+}
+.slide li{
+    position: absolute;
+    /*left:100px;*/
+    top:100px;
+}
+.slide li img{
+    width:100%;
+}
+.arrow{
+    opacity: 0;
+}
+.prev,.next{
+    width:76px;
+    height:112px;
+    position: absolute;
+    top:50%;
+    margin-top:-56px;
+    background: url(../images/prev_1.png) no-repeat;
+    z-index: 99;
+}
+.next{
+    right:0;
+    background-image: url(../images/next_1.png);
+}
